@@ -26,8 +26,5 @@ jobs:
       
   deploy:
     runs-on: ubuntu-latest
-    needs: [build]
+    needs: [b]
     
-    steps:
-          - name: Greating Message
-            run: echo "Hello deploy!"

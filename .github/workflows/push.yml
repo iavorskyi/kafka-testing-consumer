@@ -1,4 +1,4 @@
-name: Test_deploy_workflow
+name: Test_build_workflow
 
 on:
   push:

@@ -1,0 +1,11 @@
+name: Test_build_workflow
+
+on: workflow_dispatch
+  
+jobs:     
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+          - name: Greating Message
+            run: echo "Hello deploy!"

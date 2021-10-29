@@ -9,4 +9,4 @@ jobs:
     
     steps:
           - name: Greating Message
-            run: echo "Hello deploy!"
+            run: echo "Hello deploy!!!"
